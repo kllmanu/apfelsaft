@@ -26,6 +26,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export NPM_PACKAGES="$HOME/.npm-packages"
 export NVM_DIR="$HOME/.nvm"
 
+export HOMEBREW_BUNDLE_FILE="~/.brewfile"
 eval $(/opt/homebrew/bin/brew shellenv)
 
 [[ -s "/opt/homebrew/opt/nvm/nvm.sh" ]] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
