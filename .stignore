@@ -1,7 +1,0 @@
-.*
-
-/Applications
-/Library
-
-node_modules
-vendor
