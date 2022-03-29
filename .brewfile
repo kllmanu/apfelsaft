@@ -7,7 +7,6 @@ tap 'homebrew/services'
 brew 'coreutils'
 brew 'findutils'
 
-brew 'bash-completion'
 brew 'autojump'
 brew 'git'
 brew 'tig'
