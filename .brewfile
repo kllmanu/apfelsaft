@@ -27,7 +27,7 @@ brew 'translate-shell'
 
 brew 'node'
 brew 'yarn'
-brew 'nvm'
+brew 'volta'
 brew 'php'
 brew 'composer'
 
