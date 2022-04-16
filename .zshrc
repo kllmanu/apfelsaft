@@ -10,9 +10,11 @@ fi
 
 PROMPT="manu@towa:%~ $ "
 
-alias ls="ls -l"
+alias ls="gls -gGlh --color --group-directories-first -I node_modules -I vendor"
 alias l="ls"
-alias ll="ls -a"
+alias ll="ls -A"
+alias t="tree -I node_modules -I vendor --dirsfirst"
+alias tt="tree -a"
 alias zzz="pmset sleepnow"
 alias bup="brew update && brew upgrade && brew cleanup"
 alias crp="npx storefront create:pattern"
