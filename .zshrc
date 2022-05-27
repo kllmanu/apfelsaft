@@ -23,6 +23,11 @@ function cdt() {
 	cd $(wp config get root_dir)/web/app/themes/towa-theme
 }
 
+function cini() {
+	cdr && composer install
+	cdt && yarn
+}
+
 
 alias ..="cd .."
 alias ls="gls -gGlh --color --group-directories-first -I node_modules -I vendor"
