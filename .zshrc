@@ -23,6 +23,12 @@ function cdt() {
 	cd $(wp config get root_dir)/web/app/themes/towa-theme
 }
 
+function cdp() {
+	[[ -z "$1" ]] || cd ~/Desktop/towa && jc $1
+
+	cd $(wp plugin path)
+}
+
 function cini() {
 	cdr && composer install
 	cdt && yarn
